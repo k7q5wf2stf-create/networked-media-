@@ -1,0 +1,133 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background: #111;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    background: #c0a1e8;
+    padding: 32px 40px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 28px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #cfc7b8;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 25px;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+.page-title {
+    text-align: center;
+    margin: 0 0 24px;
+    font-size: 32px;
+    color: #222;
+}
+
+.submit-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-form {
+    width: 100%;
+    max-width: 560px;
+    background: #efe8f5;
+    border: 1px solid #cfbfd5;
+    border-radius: 10px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+
+.submit-form input[type="text"],
+.submit-form textarea,
+.submit-form input[type="file"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdb4a6;
+    border-radius: 8px;
+    background: #fffdf8;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.submit-form textarea {
+    resize: vertical;
+    min-height: 160px;
+}
+
+.submit-btn {
+    display: block;
+    margin: 8px auto 0;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 999px;
+    background: #2f2f2f;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.92;
+}
+
+.page{
+text-align:center;
+}
+
+.page-title{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post {
+  background: #d1c6d7;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.post h3 {
+  margin-top: 0;
+}
+
+.post p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
